@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>URL Shortener</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>URL Shortener</h1>
+    <main>
+      <section>
+        <form action="/new" method="POST">
+          <fieldset>
+            <legend>URL Shortener</legend>
+            <label for="originalUrl_input">Original Url:</label>
+            <input
+              id="originalUrl_input"
+              type="text"
+              name="originalUrl"
+            />
+            <label for="shortUrl_input">Short Url:</label>
+            <input
+              id="shortUrl_input"
+              type="text"
+              name="shortUrl"
+            />
+            <input type="submit" value="POST URL" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
